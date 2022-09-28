@@ -3,7 +3,3 @@
 @tailwind utilities;
 
 
-body {
-  @apply bg-slate-400 text-center
-
-}
