@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar'
 
 function Progress() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+    </>
   )
 }
 

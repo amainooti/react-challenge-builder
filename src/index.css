@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 
+body {
+    @apply flex justify-center align-middle
+}
