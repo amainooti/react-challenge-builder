@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className='mt-12 md:[500px] flex-col w-[300px] lg:w-[500px] h-[300px] bg-black justify-center align-middle rounded-md'>
+      <div className='mt-12 md:[400px] flex-col w-[400px] lg:w-[500px] h-[300px] bg-black justify-center align-middle rounded-md'>
         <h1 className='text-green-700 pt-20 m-5 italic font-mono'>
           <span className='text-green-700'>
           OTI@DESKTOP-UIU2960</span>
