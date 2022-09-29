@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function Timeline() {
   return (
-    <div>Timeline</div>
+    <>
+      <Navbar />
+    </>
   )
 }
 

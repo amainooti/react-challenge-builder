@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-function Progress() {
+function Home() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+    </>
   )
 }
 
-export default Progress
+export default Home

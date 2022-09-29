@@ -1,16 +1,21 @@
-import React from 'react';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import React from 'react'
+import {Route, Routes} from "react-router-dom"
+import Home from './pages/Home'
+import Progress from './pages/Progress'
+import Project from './pages/Project'
+import Timeline from './pages/Timeline'
+
 
 function App() {
-
   return (
-
-      <div className='w-[100%] text-center flex flex-col '>
-      <Navbar />
-      <Hero />
-       </div>
-
+    <>
+      <Routes>
+        <Route path='/' element = {< Home />} />
+        <Route path='/progress' element = {< Progress />} />
+        <Route path='/Projects' element = {< Project />} />
+        <Route path='/timeline' element = {< Timeline />} />
+      </Routes>
+    </>
   )
 }
 
