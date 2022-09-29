@@ -3,7 +3,6 @@ import React from 'react'
 function ProjectOne() {
     const [counter, setCounter] = React.useState(0);
     let color;
-    // @Remark: I want my color to change from black to either red/green;
 
     if (counter < 0) {
       color = "text-red-600 text-4xl"

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import Modal from './Modal';
+import Togglebutton from './Togglebutton';
 
 function Navbar() {
     const [option, setOption] = React.useState(false);
@@ -25,8 +26,10 @@ function Navbar() {
                       <li className='text-[#21272F] capitalize hover:border-b-2 border-red-500 '><Link to= "/projects">Projects</Link></li>
                       <li className='text-[#21272F] capitalize hover:border-b-2 border-red-500 '><Link to= "/progress"> Progress </Link></li>
                       <li className='text-[#21272F] capitalize hover:border-b-2 border-red-500 '><Link to= "/timeline"> Timeline </Link></li>
-                  </ul>
-              </nav>
+              </ul>
+              <Togglebutton />
+          </nav>
+
           </div>
 
 
