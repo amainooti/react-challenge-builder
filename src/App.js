@@ -6,7 +6,15 @@ import Project from './pages/Project'
 import Timeline from './pages/Timeline'
 
 
-function App() {
+function App( ) {
+
+  const [darkMode, setDarkmode] = React.useState(false)
+
+
+// Wesley are you here?
+  // ok so lets get with tailwindcss
+//ok
+
   return (
     <>
       <Routes>
